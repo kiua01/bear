@@ -4,6 +4,8 @@
 
 Designed to work hand-in-hand with the **[L](https://github.com/kiua01/L)** language — and friendly to Java/Kotlin mods as well.
 
+**Runs on desktop and on Android via [Mojo Launcher](https://mojolauncher.io/)** (MJLauncher): install Bear with a `.jar` installer, same idea as Fabric/Forge.
+
 > Status: **Design phase.** Implementation starts after core design is locked.
 
 ---
@@ -15,6 +17,7 @@ Designed to work hand-in-hand with the **[L](https://github.com/kiua01/L)** lang
 | **Modern** | Clean APIs, structured events, first-class tooling, no legacy baggage |
 | **Fast** | Minimal launch overhead, parallel init, efficient classloading |
 | **Smooth** | Stable lifecycle, clear errors, predictable mod order, great DX |
+| **Mobile-ready** | First-class path for **Mojo Launcher** on Android |
 | **L-native** | Mods written in L feel first-class; Java remains fully supported |
 
 Bear is **not** a Fabric/Forge fork. It is a new loader with lessons learned from the ecosystem.
@@ -61,6 +64,7 @@ Java-style entrypoint will also be supported.
 | [Performance](docs/PERFORMANCE.md) | Speed strategy |
 | [Roadmap](ROADMAP.md) | Phases |
 | [Relation to L](docs/L_AND_BEAR.md) | How L + Bear fit |
+| [Mojo Launcher](docs/MOJO_LAUNCHER.md) | Android via Mojo (installer + mods) |
 
 ---
 
