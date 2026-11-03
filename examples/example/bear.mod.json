@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "example",
+  "version": "0.1.0",
+  "name": "Example Bear Mod",
+  "description": "Sample bear.mod.json",
+  "authors": ["L + Bear"],
+  "entrypoints": {
+    "main": ["com.example.ExampleMod"]
+  },
+  "depends": {
+    "bear": ">=0.1.0",
+    "minecraft": ">=1.21"
+  },
+  "language": "l"
+}
