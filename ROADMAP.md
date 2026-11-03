@@ -23,13 +23,20 @@
 - [ ] Actual Minecraft version target selection
 - [ ] Client / server entrypoints
 - [ ] Networking v1
+- [ ] **Client installer `.jar`** (desktop + **Mojo Launcher** on Android)
 
-## Phase 4 — Tooling
+## Phase 4 — Mojo Launcher
+- [ ] Verify install flow inside Mojo (jar installer)
+- [ ] Instance `mods/` workflow documented
+- [ ] Mobile boot timings / memory pass
+- [ ] Player guide: “Bear on Mojo”
+
+## Phase 5 — Tooling
 - [ ] Gradle plugin
 - [ ] L compiler Bear backend
 - [ ] Dev launch
 
-## Phase 5 — Polish
+## Phase 6 — Polish
 - [ ] Crash reports
 - [ ] Phase timings
 - [ ] Docs site
